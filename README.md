@@ -207,12 +207,3 @@ If you use this project for research or learning, please cite:
 ### 🏁 Ready to Detect Deepfakes?
 
 🔥 Run the app → Upload your video → Get instant frame-level deepfake analysis!
-
-```
-
----
-
-Would you like me to include your **name, LinkedIn, GitHub username**, and **a short project tagline** (for example:  
-_"An AI system that detects deepfakes and visualizes manipulation frames in real time."_)?  
-If you share that, I’ll personalize the README for **your GitHub upload version**.
-```
