@@ -198,7 +198,7 @@ If you use this project for research or learning, please cite:
   author = {ADITYA SHARMA},
   title = {Deepfake Detection AI: Frame-Level Deepfake Analyzer},
   year = {2025},
-  url = {https://github.com/youruse/deepfake-detection-ai}
+  url = {(https://github.com/Lucifer-cyber007/DEEPFAKE_DETCTION-AI)}
 }
 ```
 
