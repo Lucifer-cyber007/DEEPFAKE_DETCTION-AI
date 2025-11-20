@@ -26,33 +26,29 @@ It uses a fine-tuned **EfficientNet-B3 deep learning model** trained on real and
 ---
 
 ## 🏗️ Project Architecture
-
-```
-
 deepfake-app/
-├─ backend/
-│  ├─ app.py                # FastAPI server – endpoints for video upload & prediction
-│  ├─ model.py              # Model architecture & loading utilities
-│  ├─ infer.py              # Frame extraction, Grad-CAM visualization
-│  ├─ config.py             # Model paths and configuration parameters
-│  ├─ requirements.txt      # Python dependencies
+├── backend/
+│ ├── app.py # FastAPI server – video upload & prediction
+│ ├── model.py # Model architecture & loading utilities
+│ ├── infer.py # Frame extraction + Grad-CAM visualization
+│ ├── config.py # Model paths and configuration parameters
+│ └── requirements.txt # Backend Python dependencies
 │
-├─ frontend/
-│  ├─ src/
-│  │  ├─ App.jsx            # Main React component (video upload + results)
-│  │  ├─ pages/
-│  │  │   ├─ Detect.jsx     # Deepfake detection dashboard
-│  │  │   ├─ HowItWorks.jsx # Explains system workflow
-│  │  ├─ assets/            # Images, logos, and icons
-│  │  ├─ styles.css         # Custom UI styles
-│  ├─ vite.config.js        # Vite configuration
-│  ├─ package.json          # Frontend dependencies
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx # Main React component
+│ │ ├── pages/
+│ │ │ ├── Detect.jsx # Deepfake detection dashboard UI
+│ │ │ └── HowItWorks.jsx # "How It Works" page
+│ │ ├── assets/ # Logos, images, icons
+│ │ └── styles.css # Custom styling
+│ ├── vite.config.js # Vite configuration
+│ └── package.json # Frontend dependencies
 │
-├─ model/
-│  └─ best_video_effnet.pth # Fine-tuned EfficientNet-B3 model checkpoint
+├── model/
+│ └── best_video_effnet.pth # Fine-tuned EfficientNet-B3 checkpoint
 │
-└─ README.md
-
+└── README.md
 ````
 
 ---
