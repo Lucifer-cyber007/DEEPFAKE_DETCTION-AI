@@ -195,10 +195,10 @@ If you use this project for research or learning, please cite:
 
 ```
 @software{DeepfakeDetectionAI,
-  author = {Your Name},
+  author = {ADITYA SHARMA},
   title = {Deepfake Detection AI: Frame-Level Deepfake Analyzer},
   year = {2025},
-  url = {https://github.com/yourusername/deepfake-detection-ai}
+  url = {https://github.com/youruse/deepfake-detection-ai}
 }
 ```
 
